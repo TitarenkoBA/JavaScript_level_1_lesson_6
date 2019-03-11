@@ -32,7 +32,6 @@ var renderItems = function () {
 renderItems ();
 
 var galleryApp = function (evt) {
-	console.log(evt);
 	
 	if (evt.target.parentElement.className == 'albumWrapper' || evt.target.classList.contains('imgThumb') == true) {
 		mainImage.style.backgroundImage = evt.target.style.backgroundImage;
